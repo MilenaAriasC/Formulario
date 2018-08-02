@@ -8,9 +8,40 @@
         <StackLayout Orientation="Horizontal">
             <Label Text="Email"
                    VerticalTextAlignment="Center"
+                   FontAttributes="Bold"
+                   FontSize="18"
+                  
                 />
+            <Entry x:Name="UserEmail"
+                   Placeholder="email"
+                   Keyboard="Email"
+                   HorizontalOptions="FillAndExpand"/>
 
         </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Telefono"
+                   VerticalTextAlignment="Center"
+                   FontAttributes="Bold"
+                   FontSize="18"
+                  
+                />
+            <Entry x:Name="UserCelular"
+                   Placeholder="Nombre"
+                   Keyboard="Telephone"
+                   HorizontalOptions="FillAndExpand"/>
+
+        </StackLayout>
+        <Button
+            x:Name="ClienteBtF"
+            Text="Continuar"
+            BorderRadius="10"
+            BorderWidth="1"
+            BorderColor="Black"
+            TextColor="White"
+            Margin="30,0,30,0"
+            BackgroundColor="Navy"
+            Clicked="Continue_Tapped"/>
+
     </StackLayout>
 
 </ContentPage>

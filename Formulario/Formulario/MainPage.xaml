@@ -5,10 +5,12 @@
              x:Class="Formulario.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Email"
+                   VerticalTextAlignment="Center"
+                />
+
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
